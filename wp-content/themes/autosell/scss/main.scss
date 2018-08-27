@@ -1,5 +1,39 @@
 @import "modules/variables.scss";
+@import "modules/font.scss";
 
 * {
-    color: red;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-section-container {
+    height: 682px;
+    .contact-us {
+        margin-top: 245px;
+        color: white;
+        background-color:rgba(#000, 0.4);
+        height: 315px;
+        padding: 20px;
+        border-radius: 15px;
+        
+        h2 {
+            font-size: 22px;
+            font-weight: bold;
+            margin-left: 15px;
+        }
+        p {
+            font-size: 14px;
+            margin-left: 15px;
+        }
+        a {
+            color: white;
+            width: 100%;
+            div {
+                background-color: $separative-color;
+                text-align: center;
+                width: 90%;
+                padding: 10px;
+                margin: 0 auto;
+            }
+        }
+    }
 }
